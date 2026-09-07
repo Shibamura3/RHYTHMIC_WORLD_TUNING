@@ -1,0 +1,7 @@
+﻿CharacterID,Name,Description_JP,Description_EN,Description_KR,Description_CN,SkillName,SkillDescription_JP,SkillDescription_EN,SkillDescription_KR,SkillDescription_CN
+
+RIFF,Riff,"バンド活動をしている学生の少女。\n情熱的なギター演奏で仲間を支える。","A student musician active in a band.\nShe supports her friends with passionate \nguitar performances.","밴드 활동을 하는 학생 소녀.\n 열정적인 기타 연주로 동료들을 이끈다.","参加乐队活动的学生少女\n用充满热情的吉他演奏支持伙伴",OVER DRIVE,"一定時間、攻撃力が上昇する。","Increases attack power for a limited time.","일정 시간 동안 공격력이 상승한다.","在一定时间内提升攻击力"
+
+LUNA,Luna,"SF世界出身の音響エンジニア兼電子ピアノ奏者。\n音を解析し理想の演奏を導き出す。","A sound engineer and electronic piano \nplayer from a sci-fi world.\nShe analyzes sound data to achieve \nthe ideal performance.","SF 세계 출신의 음향 엔지니어 겸 전자 피아노 연주자.\n 소리를 분석하여 이상적인 연주를 만들어 낸다.","来自科幻世界的音响工程师兼电子钢琴演奏者\n通过分析声音数据创造理想的演奏",PERFECT SYNC,"一定時間、Perfect判定の範囲が広がる。","Widens the timing window for Perfect \njudgments for a limited time.","일정 시간 동안 Perfect 판정 범위가 넓어진다.","在一定时间内扩大Perfect判定范围"
+
+MELODY,Melody,"歌うことが大好きな小さな天使のアイドル。\n明るい歌声でみんなを笑顔にする。","A little angel idol who loves singing.\nHer cheerful voice brings smiles \nto everyone.","노래하는 것을 좋아하는 작은 천사 아이돌.\n 밝은 노랫소리로 모두를 웃게 만든다.","热爱歌唱的小天使偶像\n用明亮的歌声为大家带来笑容",HEALING BEAT,"体力を回復した後、一定時間獲得スコアが上昇する。","Restores HP and increases score gain for \na limited time.","체력을 회복한 후 일정 시간 동안 획득 점수가 상승한다.","恢复体力后,在一定时间内提高获得的分数"

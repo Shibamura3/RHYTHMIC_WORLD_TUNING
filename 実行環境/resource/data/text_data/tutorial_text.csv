@@ -1,0 +1,157 @@
+﻿ID,SECTION,STEP,SPEAKER,FACE,VOICE,LANG,TEXT,NEXT_CONDITION,COMMAND
+会話番号,チュートリアルのセクション分け。スキップの区切り,進行ステップ（どのチュートリアルか）,話しているキャラクター,表情差分,音声ファイル,言語識別,会話本文,進行条件,実行コマンド
+0,Intro,Story,REZZ,Serious,Rezz001,JP,"あなたが新しい調律士ね！",Click,None
+1,Intro,Story,REZZ,Smile,Rezz002,JP,"私はリズ！あなたみたいな新米調律士のナビゲータよ！",Click,None
+2,Intro,Story,RIFF,Serious,Riff001,JP,"私はリフって言います、今日はよろしくお願いします",Click,None
+3,Intro,Story,REZZ,Serious,Rezz003,JP,"調律士の仕事は自分勝手に音を鳴らすようになっちゃった「ノイジー」を落ち着かせること",Click,None
+4,Intro,Story,REZZ,Serious,Rezz004,JP,"仕事って言っても、近くで発生したノイジーに対応するボランティアって感じかな",Click,None
+5,Intro,Story,RIFF,Smile,Riff002,JP,"私も学校やバンド活動の合間に手伝えるかなと思って来ました",Click,None
+6,Intro,Story,REZZ,Smile,Rezz005,JP,"いいね!それじゃあ実際に私が説明しながらノイジーを倒してみよう！",Click,None
+7,Intro,Story,RIFF,Smile,Riff003,JP,"頑張ります！",Click,None
+8,UI,Story,REZZ,Serious,Rezz006,JP,"まずは画面の説明をするわ！",Click,None
+9,UI,UI,REZZ,Smile,None,JP,"左にいるのがプレイヤーだよ",Click,FocusPlayer
+10,UI,UI,REZZ,Smile,None,JP,"右で走っているのがエネミーのノイジーだよ",Click,FocusEnemy
+11,UI,UI,REZZ,Smile,None,JP,"ここがプレイヤーのHPだよ",Click,FocusPlayerHP
+12,UI,UI,REZZ,Smile,None,JP,"ここがエネミーのHPだよ、本番では0にすると上に討伐数がでるよ",Click,FocusEnemyHP
+13,UI,UI,REZZ,Smile,None,JP,"これはプレイヤーのスキルゲージだよ",Click,FocusFeverGauge
+14,UI,UI,REZZ,Smile,None,JP,"ここにはコンボ数が表示されるよ",Click,FocusCombo
+15,UI,UI,REZZ,Smile,None,JP,"ここには現在のスコアとそのランクが表示されるよ",Click,FocusScoreRank
+16,UI,UI,REZZ,Smile,None,JP,"最後に重要になるレーンだよ",Click,FocusLane
+17,UI,UI,REZZ,Smile,None,JP,"上下に分かれていて丸と重なっているときにボタンを押してね",Click,FocusJudge
+18,Notes,Story,REZZ,Serious,Rezz007,JP,"次は実際のノーツを見てみよう",Click,ClearFocus
+19,Notes,Normal,REZZ,Smile,None,JP,"ラインに重なったタイミングでボタンを押そう",AutoDemoComplete,SpawnNormalDemoAuto
+20,Notes,Normal,REZZ,Smile,None,JP,"ノーマルノーツをたたいてみよう",NormalSuccess,SpawnNormalPractice
+21,Notes,Story,REZZ,Serious,Rezz008,JP,"いいね!つぎはロングノーツだよ",Click,None
+22,Notes,Long,REZZ,Smile,None,JP,"ボタンを押した後、さいごまで押し続けよう",AutoDemoComplete,SpawnLongDemoAuto
+23,Notes,Long,REZZ,Smile,None,JP,"ロングノーツを押し続けよう",LongSuccess,SpawnLongPractice
+24,Notes,Story,REZZ,Serious,Rezz009,JP,"よくできたね!つぎはラピッドノーツだよ",Click,None
+25,Notes,Rapid,REZZ,Smile,None,JP,"連打するとスコアがふえるよ",AutoDemoComplete,SpawnRapidDemoAuto
+26,Notes,Rapid,REZZ,Smile,None,JP,"連打してみよう",RapidSuccess,SpawnRapidPractice
+27,Fever,Story,REZZ,Serious,Rezz010,JP,"つぎはFEVERゲージについて説明するよ",Click,FocusFeverGauge
+28,Fever,Story,REZZ,Smile,Rezz011,JP,"ノーツを成功させるとゲージがたまるよ",Click,FocusFeverGauge
+29,Fever,Fever,REZZ,Serious,None,JP,"ノーツをたたいてスキルを発動させよう！",FeverActivated,StartFeverPractice
+30,Fever,Story,REZZ,Smile,Rezz012,JP,"スキルが発動したね",Click,None
+31,Fever,Story,REZZ,Smile,Rezz013,JP,"リフのスキルは攻撃力の上昇！",Click,None
+32,Fever,Story,REZZ,Smile,Rezz014,JP,"他のキャラクターはそれぞれ別のスキルを持っているよ",Click,None
+33,FinalPractice,Story,REZZ,Smile,Rezz015,JP,"基本操作の説明は終わりだよ",Click,None
+34,FinalPractice,Story,REZZ,Serious,Rezz016,JP,"次は敵を一度倒すところまでを通してやってみよう！",Click,None
+35,FinalPractice,Practice,REZZ,Smile,None,JP,"ノイジーを倒そう！！",EnemyKilled,StartFinalPractice
+36,Ending,Story,REZZ,Serious,Rezz017,JP,"これでチュートリアルはおしまいだよ",Click,EndFinalPractice
+37,Ending,Ending,REZZ,Smile,Rezz018,JP,"次は実際に遊んでみよう！",Click,None
+
+0,Intro,Story,REZZ,Serious,Rezz001,EN,"You're a new tuner!",Click,None
+1,Intro,Story,REZZ,Smile,Rezz002,EN,"I'm REZZ! I'll be your navigator!",Click,None
+2,Intro,Story,RIFF,Serious,Riff001,EN,"My name's Riff, nice to meet you today",Click,None
+3,Intro,Story,REZZ,Serious,Rezz003,EN,"A tuner's job is to calm down 'Noisy' that have gone rogue and are making random sounds",Click,None
+4,Intro,Story,REZZ,Serious,Rezz004,EN,"Calling it a job, it's more like volunteering to handle Noisy that appear nearby",Click,None
+5,Intro,Story,RIFF,Smile,Riff002,EN,"I thought maybe I could help out in between school and band activities",Click,None
+6,Intro,Story,REZZ,Smile,Rezz005,EN,"Nice! Then let's actually take down Noisy while I explain!",Click,None
+7,Intro,Story,RIFF,Smile,Riff003,EN,"Let's do our best!",Click,None
+8,UI,Story,REZZ,Serious,Rezz006,EN,"First, I'll explain the screen!",Click,None
+9,UI,UI,REZZ,Smile,None,EN,"The player is on the left",Click,FocusPlayer
+10,UI,UI,REZZ,Smile,None,EN,"The enemy Noisy is running on the right",Click,FocusEnemy
+11,UI,UI,REZZ,Smile,None,EN,"This is the player's HP",Click,FocusPlayerHP
+12,UI,UI,REZZ,Smile,None,EN,"This is the enemy's HP; in the actual game, when it hits 0, the kill count appears above",Click,FocusEnemyHP
+13,UI,UI,REZZ,Smile,None,EN,"This is the player's skill gauge",Click,FocusFeverGauge
+14,UI,UI,REZZ,Smile,None,EN,"The combo count is shown here",Click,FocusCombo
+15,UI,UI,REZZ,Smile,None,EN,"Your current score and rank are displayed here",Click,FocusScoreRank
+16,UI,UI,REZZ,Smile,None,EN,"Finally, the important lane",Click,FocusLane
+17,UI,UI,REZZ,Smile,None,EN,"It's split up and down, press the button when it overlaps with the circle",Click,FocusJudge
+18,Notes,Story,REZZ,Serious,Rezz007,EN,"Next, let's look at the actual notes",Click,ClearFocus
+19,Notes,Normal,REZZ,Smile,None,EN,"Press the button when the timing overlaps with the line",AutoDemoComplete,SpawnNormalDemoAuto
+20,Notes,Normal,REZZ,Smile,None,EN,"Let's hit a normal note",NormalSuccess,SpawnNormalPractice
+21,Notes,Story,REZZ,Serious,Rezz008,EN,"Nice! Next is the long note",Click,None
+22,Notes,Long,REZZ,Smile,None,EN,"Press the button and hold it until the end",AutoDemoComplete,SpawnLongDemoAuto
+23,Notes,Long,REZZ,Smile,None,EN,"Keep holding the long note",LongSuccess,SpawnLongPractice
+24,Notes,Story,REZZ,Serious,Rezz009,EN,"Well done! Next is the rapid note",Click,None
+25,Notes,Rapid,REZZ,Smile,None,EN,"Hitting repeatedly will increase your score",AutoDemoComplete,SpawnRapidDemoAuto
+26,Notes,Rapid,REZZ,Smile,None,EN,"Try mashing it",RapidSuccess,SpawnRapidPractice
+27,Fever,Story,REZZ,Serious,Rezz010,EN,"Now let's explain the FEVER gauge",Click,FocusFeverGauge
+28,Fever,Story,REZZ,Smile,Rezz011,EN,"The gauge fills up when notes are hit successfully",Click,FocusFeverGauge
+29,Fever,Fever,REZZ,Serious,None,EN,"Hit notes to activate your skill!",FeverActivated,StartFeverPractice
+30,Fever,Story,REZZ,Smile,Rezz012,EN,"The skill has been activated",Click,None
+31,Fever,Story,REZZ,Smile,Rezz013,EN,"Riff's skill increases attack power!",Click,None
+32,Fever,Story,REZZ,Smile,Rezz014,EN,"The other characters each have their own skills",Click,None
+33,FinalPractice,Story,REZZ,Smile,Rezz015,EN,"That's the end of the basic controls explanation",Click,None
+34,FinalPractice,Story,REZZ,Serious,Rezz016,EN,"Next, let's go through taking down an enemy once!",Click,None
+35,FinalPractice,Practice,REZZ,Smile,None,EN,"Let's defeat Noisy!!",EnemyKilled,StartFinalPractice
+36,Ending,Story,REZZ,Serious,Rezz017,EN,"And that's the end of the tutorial",Click,EndFinalPractice
+37,Ending,Ending,REZZ,Smile,Rezz018,EN,"Next, let's actually play!",Click,None
+
+0,Intro,Story,REZZ,Serious,Rezz001,KR,"너가 새로운 조율사구나!",Click,None
+1,Intro,Story,REZZ,Smile,Rezz002,KR,"나는 리즈! 너 같은 신참 조율사의 네비게이터야!",Click,None
+2,Intro,Story,RIFF,Serious,Riff001,KR,"나는 리프라고 해, 오늘 잘 부탁해",Click,None
+3,Intro,Story,REZZ,Serious,Rezz003,KR,"조율사의 일은 마음대로 소리를 내는 '노이지'를 진정시키는 거야",Click,None
+4,Intro,Story,REZZ,Serious,Rezz004,KR,"일이라고 해도, 주변에서 발생한 노이지를 대응하는 봉사 같은 거지",Click,None
+5,Intro,Story,RIFF,Smile,Riff002,KR,"나도 학교랑 밴드 활동 틈틈이 도와줄 수 있을 것 같아서 왔어",Click,None
+6,Intro,Story,REZZ,Smile,Rezz005,KR,"좋아! 그럼 실제로 내가 설명하면서 노이지를 잡아보자!",Click,None
+7,Intro,Story,RIFF,Smile,Riff003,KR,"열심히 할게!",Click,None
+8,UI,Story,REZZ,Serious,Rezz006,KR,"먼저 화면 설명부터 할게!",Click,None
+9,UI,UI,REZZ,Smile,None,KR,"왼쪽에 있는 게 플레이어야",Click,FocusPlayer
+10,UI,UI,REZZ,Smile,None,KR,"오른쪽에서 달리는 게 적 노이지야",Click,FocusEnemy
+11,UI,UI,REZZ,Smile,None,KR,"여기가 플레이어 HP야",Click,FocusPlayerHP
+12,UI,UI,REZZ,Smile,None,KR,"여기가 적 HP야, 본 게임에서는 0이 되면 위에 처치 수가 나와",Click,FocusEnemyHP
+13,UI,UI,REZZ,Smile,None,KR,"이건 플레이어 스킬 게이지야",Click,FocusFeverGauge
+14,UI,UI,REZZ,Smile,None,KR,"여기에는 콤보 수가 표시돼",Click,FocusCombo
+15,UI,UI,REZZ,Smile,None,KR,"여기에는 현재 점수와 랭크가 표시돼",Click,FocusScoreRank
+16,UI,UI,REZZ,Smile,None,KR,"마지막으로 중요한 레인야",Click,FocusLane
+17,UI,UI,REZZ,Smile,None,KR,"위아래로 나뉘어 있고 원과 겹칠 때 버튼을 눌러야 해",Click,FocusJudge
+18,Notes,Story,REZZ,Serious,Rezz007,KR,"다음은 실제 노트를 봐보자",Click,ClearFocus
+19,Notes,Normal,REZZ,Smile,None,KR,"라인에 겹친 타이밍에 버튼을 누르자",AutoDemoComplete,SpawnNormalDemoAuto
+20,Notes,Normal,REZZ,Smile,None,KR,"노멀 노트를 쳐보자",NormalSuccess,SpawnNormalPractice
+21,Notes,Story,REZZ,Serious,Rezz008,KR,"좋아! 다음은 롱 노트야",Click,None
+22,Notes,Long,REZZ,Smile,None,KR,"버튼을 누른 후 끝까지 계속 눌러야 해",AutoDemoComplete,SpawnLongDemoAuto
+23,Notes,Long,REZZ,Smile,None,KR,"롱 노트를 계속 누르자",LongSuccess,SpawnLongPractice
+24,Notes,Story,REZZ,Serious,Rezz009,KR,"잘했어! 다음은 래피드 노트야",Click,None
+25,Notes,Rapid,REZZ,Smile,None,KR,"연타하면 점수가 올라가",AutoDemoComplete,SpawnRapidDemoAuto
+26,Notes,Rapid,REZZ,Smile,None,KR,"연타해보자",RapidSuccess,SpawnRapidPractice
+27,Fever,Story,REZZ,Serious,Rezz010,KR,"다음은 피버 게이지에 대해 설명할게",Click,FocusFeverGauge
+28,Fever,Story,REZZ,Smile,Rezz011,KR,"노트를 성공시키면 게이지가 차",Click,FocusFeverGauge
+29,Fever,Fever,REZZ,Serious,None,KR,"노트를 쳐서 스킬을 발동시키자!",FeverActivated,StartFeverPractice
+30,Fever,Story,REZZ,Smile,Rezz012,KR,"스킬이 발동됐네",Click,None
+31,Fever,Story,REZZ,Smile,Rezz013,KR,"리프의 스킬은 공격력 상승이야!",Click,None
+32,Fever,Story,REZZ,Smile,Rezz014,KR,"다른 캐릭터들은 각자 다른 스킬을 가지고 있어",Click,None
+33,FinalPractice,Story,REZZ,Smile,Rezz015,KR,"기본 조작 설명은 끝났어",Click,None
+34,FinalPractice,Story,REZZ,Serious,Rezz016,KR,"다음은 적을 한 번 잡는 것까지 같이 해보자!",Click,None
+35,FinalPractice,Practice,REZZ,Smile,None,KR,"노이지를 잡자!!",EnemyKilled,StartFinalPractice
+36,Ending,Story,REZZ,Serious,Rezz017,KR,"이로써 튜토리얼은 끝이야",Click,EndFinalPractice
+37,Ending,Ending,REZZ,Smile,Rezz018,KR,"다음은 실제로 플레이해보자!",Click,None
+
+0,Intro,Story,REZZ,Serious,Rezz001,CN,"你就是新的调律师啊!",Click,None
+1,Intro,Story,REZZ,Smile,Rezz002,CN,"我是莉兹! 是像你这样的新手调律师的导航员哦!",Click,None
+2,Intro,Story,RIFF,Serious,Riff001,CN,"我叫里夫,今天请多关照",Click,None
+3,Intro,Story,REZZ,Serious,Rezz003,CN,"调律师的工作是让那些开始随心所欲发声的[Noisy]平静下来",Click,None
+4,Intro,Story,REZZ,Serious,Rezz004,CN,"虽然说是工作啦,更像是志愿者,处理附近发生的Noisy",Click,None
+5,Intro,Story,RIFF,Smile,Riff002,CN,"我也想着可以在学校和乐队活动的空隙帮忙",Click,None
+6,Intro,Story,REZZ,Smile,Rezz005,CN,"好啊! 那我就一边解释一边实际击败Noisy吧!",Click,None
+7,Intro,Story,RIFF,Smile,Riff003,CN,"我会努力的!",Click,None
+8,UI,Story,REZZ,Serious,Rezz006,CN,"首先我来说明一下画面!",Click,None
+9,UI,UI,REZZ,Smile,None,CN,"左边的是玩家哦",Click,FocusPlayer
+10,UI,UI,REZZ,Smile,None,CN,"右边跑的就是敌人的Noisy",Click,FocusEnemy
+11,UI,UI,REZZ,Smile,None,CN,"这里是玩家的HP",Click,FocusPlayerHP
+12,UI,UI,REZZ,Smile,None,CN,"这里是敌人的HP,本番中掉到0上面会显示击败数哦",Click,FocusEnemyHP
+13,UI,UI,REZZ,Smile,None,CN,"这是玩家的技能槽",Click,FocusFeverGauge
+14,UI,UI,REZZ,Smile,None,CN,"这里显示连击数",Click,FocusCombo
+15,UI,UI,REZZ,Smile,None,CN,"这里显示当前分数和排名",Click,FocusScoreRank
+16,UI,UI,REZZ,Smile,None,CN,"最后是重要的路线",Click,FocusLane
+17,UI,UI,REZZ,Smile,None,CN,"上下分开,当和圆圈重合时按下按钮哦",Click,FocusJudge
+18,Notes,Story,REZZ,Serious,Rezz007,CN,"接下来看看实际的音符吧",Click,ClearFocus
+19,Notes,Normal,REZZ,Smile,None,CN,"在和线路重合的时机按下按钮",AutoDemoComplete,SpawnNormalDemoAuto
+20,Notes,Normal,REZZ,Smile,None,CN,"来敲打普通音符吧",NormalSuccess,SpawnNormalPractice
+21,Notes,Story,REZZ,Serious,Rezz008,CN,"不错! 接下来是长音符",Click,None
+22,Notes,Long,REZZ,Smile,None,CN,"按下按钮后,一直按到最后",AutoDemoComplete,SpawnLongDemoAuto
+23,Notes,Long,REZZ,Smile,None,CN,"一直按着长音符",LongSuccess,SpawnLongPractice
+24,Notes,Story,REZZ,Serious,Rezz009,CN,"做得很好! 接下来是快速音符",Click,None
+25,Notes,Rapid,REZZ,Smile,None,CN,"连打的话分数会增加哦",AutoDemoComplete,SpawnRapidDemoAuto
+26,Notes,Rapid,REZZ,Smile,None,CN,"试着连打看看",RapidSuccess,SpawnRapidPractice
+27,Fever,Story,REZZ,Serious,Rezz010,CN,"接下来讲讲FEVER槽",Click,FocusFeverGauge
+28,Fever,Story,REZZ,Smile,Rezz011,CN,"成功敲打音符会累积槽",Click,FocusFeverGauge
+29,Fever,Fever,REZZ,Serious,None,CN,"敲击音符来发动技能吧!",FeverActivated,StartFeverPractice
+30,Fever,Story,REZZ,Smile,Rezz012,CN,"技能发动了呢",Click,None
+31,Fever,Story,REZZ,Smile,Rezz013,CN,"里夫的技能是提升攻击力!",Click,None
+32,Fever,Story,REZZ,Smile,Rezz014,CN,"其他角色各自有不同技能哦",Click,None
+33,FinalPractice,Story,REZZ,Smile,Rezz015,CN,"基本操作就讲到这里",Click,None
+34,FinalPractice,Story,REZZ,Serious,Rezz016,CN,"接下来从击败敌人开始实际练习吧!",Click,None
+35,FinalPractice,Practice,REZZ,Smile,None,CN,"击败Noisy!!",EnemyKilled,StartFinalPractice
+36,Ending,Story,REZZ,Serious,Rezz017,CN,"教程到这里就结束了",Click,EndFinalPractice
+37,Ending,Ending,REZZ,Smile,Rezz018,CN,"下一步实际来玩一玩吧!",Click,None

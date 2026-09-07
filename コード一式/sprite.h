@@ -1,0 +1,30 @@
+﻿
+/*
+	スプライト表示　sprite.h
+*/
+
+#pragma once
+#include <d3d11.h>
+#include <DirectXMath.h>
+
+
+void Sprite_Initialize(ID3D11Device* pDevice, ID3D11DeviceContext* pContext);
+void Sprite_Finalize(void);
+
+void Sprite_Begin();
+
+//テクスチャ全表示
+void Sprite_Draw(int texid, float dx, float dy, const DirectX::XMFLOAT4 color = { 1.0f,1.0f,1.0f,1.0f }, bool flipx = false);
+//テクスチャ全表示（表示サイズの変更可能）
+void Sprite_Draw(int texid, float dx, float dy, float dw, float dh, const DirectX::XMFLOAT4 color = { 1.0f,1.0f,1.0f,1.0f }, bool flipx = false);
+// テクスチャ全表示（表示サイズの変更可能）画像の回転可能
+void Sprite_DrawRotated(int texid, float dx, float dy, float dw, float dh, float angle, const DirectX::XMFLOAT4 color = { 1.0f,1.0f,1.0f,1.0f });
+//UVカット
+void Sprite_Draw(int texid, float dx, float dy, int px, int py, int pw, int ph, const DirectX::XMFLOAT4 color = { 1.0f,1.0f,1.0f,1.0f });
+//px,py,pw,ph テクスチャを切り取るピクセル座標、解像度で指定できる
+//UVカット（表示サイズの変更可能）
+void Sprite_Draw(int texid, float dx, float dy, float dw, float dh, int px, int py, int pw, int ph, const DirectX::XMFLOAT4 color = { 1.0f,1.0f,1.0f,1.0f });
+//UVカット（表示サイズの変更可能）画像の回転可能
+void Sprite_Draw(int texid, float dx, float dy, float dw, float dh, int px, int py, int pw, int ph, float angle, const DirectX::XMFLOAT4 color = { 1.0f,1.0f,1.0f,1.0f });
+//UVカット（表示サイズの変更可能）画像の回転可能
+void Sprite_Draw(int texid, float dx, float dy, float dw, float dh, int px, int py, int pw, int ph, float angle, float pivotx, float pivoty, const DirectX::XMFLOAT4 color = { 1.0f,1.0f,1.0f,1.0f });

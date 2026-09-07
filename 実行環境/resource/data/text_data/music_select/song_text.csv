@@ -1,0 +1,17 @@
+﻿SONG_ID,LANG,TDESCRIPTION
+曲番号,言語,識別説明文
+song_001,JP,初心者向けの明るくテンポの良い楽曲です
+song_002,JP,中級者向けの明るくテンポの良い楽曲です
+song_003,JP,上級者向けの明るくテンポの良い楽曲です
+
+song_001,EN,You're a new tuner!
+song_002,EN,I'm REZZ! I'll be your navigator!
+song_003,EN,"My name's Riff, nice to meet you today"
+
+song_001,KR,너가 새로운 조율사구나!
+song_002,KR,나는 리즈! 너 같은 신참 조율사의 네비게이터야!
+song_003,KR,"나는 리프라고 해, 오늘 잘 부탁해"
+
+song_001,CN,你就是新的调律师啊!
+song_002,CN,我是莉兹! 是像你这样的新手调律师的导航员哦!
+song_003,CN,"我叫里夫,今天请多关照"
