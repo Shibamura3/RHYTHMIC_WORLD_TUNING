@@ -14,33 +14,33 @@ A multilingual rhythm game developed with C++ and DirectX 11.
 
 ### Title Screen
 
-![Title screents/title-screen.png
+![Title](docs/screents/title-screen.png)
 
-### Song Select
+### Music Select
 
-docs/screenshots/song-select.png
+![Music Select](docs/screenshots/music-select.png)
 
 ### Gameplay
 
-docs/screenshots/gameplay.png
+![Gameplay](docs/screenshots/gameplay.png)
 
 ### Character Select
 
-docs/screenshots/character-select.png
+![Character Select](docs/screenshots/character-select.png)
 
 ### Chart Editor
 
-docs/screenshots/chart-editor.png
+![Chart Editor](docs/screenshots/chart-editor.png:)
 
 ### Multilingual Support
 
 日本語、英語、韓国語、中国語の4言語に対応しています。
 
-![Ks/screenshots/settings-korean.png
+![Ks](/screenshots/settings-korean.png)
 
 ### Result Screen
 
-docs/screenshots/result-screen.png
+![Result](docs/screenshots/result-screen.png)
 
 ## Features
 
@@ -154,7 +154,7 @@ The required external libraries and runtime files must be prepared before buildi
 
 詳しいゲーム説明、操作方法、各画面の構成については、以下の説明書を参照してください。
 
-[Open the game manual](docs/manual/rhythmic-world-tuning-manual.pdf
+[Open the game manual](docs/manual/rhythmic-world-tuning-manual.pdf)
 ```text
 RHYTHMIC_WORLD_TUNING/
 ├─ docs/
