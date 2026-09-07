@@ -14,7 +14,7 @@ A multilingual rhythm game developed with C++ and DirectX 11.
 
 ### Title Screen
 
-![Title](docs/screents/title-screen.png)
+![Title](docs/screenshots/title-screen.png)
 
 ### Music Select
 
@@ -30,7 +30,7 @@ A multilingual rhythm game developed with C++ and DirectX 11.
 
 ### Chart Editor
 
-![Chart Editor](docs/screenshots/chart-editor.png:)
+![Chart Editor](docs/screenshots/chart-editor.png)
 
 ### Multilingual Support
 
