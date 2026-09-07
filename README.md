@@ -36,7 +36,7 @@ A multilingual rhythm game developed with C++ and DirectX 11.
 
 日本語、英語、韓国語、中国語の4言語に対応しています。
 
-![Ks](/screenshots/settings-korean.png)
+![Ks](docs/screenshots/settings-korean.png)
 
 ### Result Screen
 
