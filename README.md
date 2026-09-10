@@ -166,11 +166,14 @@ RHYTHMIC_WORLD_TUNING/
 
 ## Credits
 
-### Audio
+#### Audio
 
 - BGM and sound effects: MaouDamashii
 - Sound effects: Sound Effect Lab
 - Game music generation support: Loudly
+- Character voices:
+  - VOICEVOX: Kasukabe Tsumugi
+  - VOICEVOX: Shikoku Metan
 
 ### Images
 
@@ -181,6 +184,11 @@ Some visual assets were created with generative AI tools and edited or adjusted 
 Microsoft Copilot was used as development support for tasks such as code organization, naming improvements, refactoring suggestions and removal of magic numbers.
 
 All generated output was reviewed, edited, integrated and tested by the developer.
+
+#### Chart Creation Support
+
+Python was used to analyze music data, and generative AI was used to create initial chart CSV templates.  
+The final note placement and timing were manually reviewed, edited and tested by the developer.
 
 ## Author
 
